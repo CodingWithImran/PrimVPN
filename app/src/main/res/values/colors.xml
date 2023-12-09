@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#11614E</color>
+    <color name="primary_dark">#034031</color>
+    <color name="colorAccent">#11614E</color>
+    <color name="gray">#3d3e44</color>
+    <color name="white">#ffffff</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+
+    <color name="overlay_dark_10">#1A000000</color>
+    <color name="overlay_dark_20">#33000000</color>
+    <color name="overlay_dark_30">#4D000000</color>
+    <color name="overlay_dark_40">#66000000</color>
+    <color name="overlay_dark_50">#80000000</color>
+    <color name="overlay_dark_60">#99000000</color>
+    <color name="overlay_dark_70">#B3000000</color>
+    <color name="overlay_dark_80">#CC000000</color>
+    <color name="overlay_dark_90">#E6000000</color>
+
+    <color name="orange_50">#FFF3E0</color>
+    <color name="orange_100">#FFE0B2</color>
+    <color name="orange_200">#FFCC80</color>
+    <color name="orange_300">#FFB74D</color>
+    <color name="orange_400">#FFA726</color>
+    <color name="orange_500">#FF9800</color>
+    <color name="orange_600">#FB8C00</color>
+    <color name="orange_700">#F57C00</color>
+    <color name="orange_800">#EF6C00</color>
+    <color name="orange_900">#E65100</color>
+    <color name="orange_A100">#FFD180</color>
+    <color name="orange_A200">#FFAB40</color>
+    <color name="orange_A400">#FF9100</color>
+    <color name="orange_A700">#FF6D00</color>
+
+
+    <color name="grey_3">#f7f7f7</color>
+    <color name="grey_5">#f2f2f2</color>
+    <color name="grey_10">#e6e6e6</color>
+    <color name="grey_20">#cccccc</color>
+    <color name="grey_40">#999999</color>
+    <color name="grey_60">#666666</color>
+    <color name="grey_80">#37474F</color>
+    <color name="grey_90">#263238</color>
+    <color name="grey_95">#1a1a1a</color>
+    <color name="grey_100_">#0d0d0d</color>
+
+
+    <array name="array_dot_active">
+        <item>@color/dot_selected</item>
+        <item>@color/dot_selected</item>
+        <item>@color/dot_selected</item>
+        <item>@color/dot_selected</item>
+        <item>@color/dot_selected</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_not_selected</item>
+        <item>@color/dot_not_selected</item>
+        <item>@color/dot_not_selected</item>
+        <item>@color/dot_not_selected</item>
+        <item>@color/dot_not_selected</item>
+    </array>
+
+    <color name="dot_dark_screen1">#D1395C</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#2278d4</color>
+    <color name="dot_dark_screen4">#a854d4</color>
+    <color name="dot_dark_screen5">#D1395C</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#f98da5</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#93C6FD</color>
+    <color name="dot_light_screen4">#e4b5fc</color>
+    <color name="dot_light_screen5">#f98da5</color>
+    <color name="dot_not_selected">#03015A</color>
+    <color name="dot_selected">#ffffff</color>
+
+    <color name="light_gray">#40F3F1F1</color>
+    <color name="red">#FF0000</color>
+    <color name="on">#01ff5a</color>
+    <color name="off">#ff3231</color>
+
+
+    <!-- custom colors for applications-->
+
+
+    <color name="main_color">#11614E</color>
+
+    <color name="accent_color">#BBDCD4</color>
+
+    <color name="gray_color">#F4F4F4</color>
+</resources>

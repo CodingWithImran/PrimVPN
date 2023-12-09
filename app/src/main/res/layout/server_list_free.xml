@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_margin="5dp"
+    android:background="@color/main_color"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/country_flag"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/crown" />
+
+    <TextView
+        android:id="@+id/region_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+
+        android:fontFamily="@font/campton_bold"
+        android:paddingLeft="10dp"
+        android:text="@string/new_york_ny"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/pro"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/crown"
+        android:visibility="visible" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/region_limit"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/signal" />
+
+</LinearLayout>

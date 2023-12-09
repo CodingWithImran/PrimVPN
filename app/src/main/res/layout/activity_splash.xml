@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/splash_icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_vpn_1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/splash_icon"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/campton_bold"
+        android:padding="20dp"
+        android:text="@string/app_name"
+        android:textColor="@android:color/black"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/Version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/campton_bold"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+</RelativeLayout>
