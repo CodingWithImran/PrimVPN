@@ -29,9 +29,9 @@ public class staperActivity extends AppCompatActivity {
     private ViewPager viewPager;
     private MyViewPagerAdapter myViewPagerAdapter;
     private Button btnNext;
-    private String about_title_array[] = {"Secure VPN", "Free Servers", "Heigh Speed Server / No Ads", "WIFI"};
-    private String about_description_array[] = {"Master VPN is a No-Long VPN solution that protect your personal information with encryption!", "Enjoy free deferent  VPN servers to get access on network!", "Buy premium version and get heigh speed VPN servers and block ads!", "Stay protected on public WI-FI networks. We guarantee!"};
-    private int about_images_array[] = {R.drawable.stapper_1, R.drawable.stapper_3, R.drawable.stapper_4, R.drawable.stapper_2};
+    private String about_title_array[] = {"Secure VPN", "Free Servers",  "WIFI"};
+    private String about_description_array[] = {"Prim VPN is a No-Long VPN solution that protect your personal information with encryption!", "Enjoy All free deferent  VPN servers to get access on network!",  "Stay protected on public WI-FI networks. We guarantee!"};
+    private int about_images_array[] = {R.drawable.stapper_1, R.drawable.stapper_3, R.drawable.stapper_2};
 
     private Preference preference;
 
