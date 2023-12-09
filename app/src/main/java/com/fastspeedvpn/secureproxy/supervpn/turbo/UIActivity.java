@@ -265,9 +265,9 @@ public abstract class UIActivity extends AppCompatActivity implements View.OnCli
                 }
             });
 
-        } else {
-            preference.setBooleanpreference(PRIMIUM_STATE, false);
-          //  premium.setVisibility(View.GONE);
+
+            preference.setBooleanpreference(PRIMIUM_STATE, true);
+            //  premium.setVisibility(View.GONE);
 
 
             MobileAds.initialize(this, initializationStatus -> {
@@ -628,7 +628,7 @@ public abstract class UIActivity extends AppCompatActivity implements View.OnCli
     private void LoadInterstitialAd() {
         if (BuildConfig.GOOGlE_AD) {
             Preference preference = new Preference(UIActivity.this);
-            if (!preference.isBooleenPreference(PRIMIUM_STATE)) {
+
                 AdRequest adRequest = new AdRequest.Builder().build();
                 InterstitialAd.load(this, (BuildConfig.GOOGLE_INTERSTITIAL), adRequest, new InterstitialAdLoadCallback() {
                     @Override
@@ -664,7 +664,6 @@ public abstract class UIActivity extends AppCompatActivity implements View.OnCli
                         mInterstitialAd = null;
                     }
                 });
-            }
         }
     }
 
