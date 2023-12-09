@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Master VPN</string>
+    <string name="app_name">Prim VPN</string>
 
     <string name="admob_app_ID">ca-app-pub-3940256099942544~3347511713</string>
 
@@ -111,7 +111,7 @@
     <string name="scanning">Scanning</string>
     <string name="Open_setting">Open Settings</string>
     <string name="faq">FAQ</string>
-    <string name="dev_email">uzair6322@gmail.com</string>
+    <string name="dev_email">ubaidullahaslam164@gmail.com</string>
     <string name="email_subject">Suggestions and Comments</string>
     <string name="improve_us_body">Write down your comment below this line.</string>
     <string name="NEXT">NEXT</string>
