@@ -119,6 +119,9 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation 'androidx.multidex:multidex:2.0.1'
     implementation 'com.jakewharton:butterknife:10.2.3'
+    androidTestImplementation 'junit:junit:4.12'
+    androidTestImplementation 'junit:junit:4.12'
+    androidTestImplementation 'org.testng:testng:6.9.6'
     annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.3'
     implementation "com.airbnb.android:lottie:4.1.0"
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
