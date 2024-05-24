@@ -26,9 +26,7 @@
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning"
         tools:targetApi="31">
-        <activity
-            android:name=".PracticeForUI"
-            android:exported="false" />
+
         <activity
             android:name=".FaqActivity"
             android:exported="false">
@@ -147,6 +145,7 @@
             android:name="com.onesignal.PermissionsActivity"
             android:exported="true"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity android:name="com.primvpm.secureproxy.supervpn.turbo.UIActivity" />
 
         <service
             android:name="com.onesignal.NotificationRestoreService"

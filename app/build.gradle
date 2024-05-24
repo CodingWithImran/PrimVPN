@@ -21,16 +21,16 @@ repositories {
 }
 
 android {
-    namespace 'com.fastspeedvpn.secureproxy.supervpn.turbo'
+    namespace 'com.primvpm.secureproxy.supervpn.turbo'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.fastspeedvpn.secureproxy"
+        applicationId "com.primvpm.secureproxy"
         minSdk 21
-        targetSdk 34
-        versionCode 9
+        targetSdk 33
+        versionCode 5
         multiDexEnabled true
-        versionName "1.0.9"
+        versionName "5.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
@@ -51,6 +51,7 @@ android {
         buildConfigField "String", "SIX_MONTH", "\"oll_feature_for_sixmonth\""
         buildConfigField "String", "YEARLY", "\"oll_feature_for_year\""
 
+
 //Admob
         buildConfigField "Boolean", "GOOGlE_AD", "true"
         buildConfigField "String", "GOOGLE_BANNER", "\"ca-app-pub-3940256099942544/6300978111\""
@@ -63,8 +64,8 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_11
-        targetCompatibility JavaVersion.VERSION_11
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
     signingConfigs {
         release {}
@@ -74,6 +75,7 @@ android {
         release {
             minifyEnabled true
             signingConfig signingConfigs.release
+            debuggable false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
 
         }
@@ -108,34 +110,39 @@ dependencies {
     implementation 'com.github.AnchorFreePartner.hydra-sdk-android:hydra:4.1.8'
     implementation 'com.github.AnchorFreePartner.hydra-sdk-android:openvpn:4.1.8'
     implementation 'androidx.appcompat:appcompat:1.6.1'
-    implementation 'com.google.android.material:material:1.9.0'
+//    implementation 'com.google.android.material:material:1.9.0'
+    implementation 'com.google.android.material:material:1.11.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     testImplementation 'junit:junit:4.13.2'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation 'androidx.appcompat:appcompat:1.6.1'
-    implementation 'com.google.android.material:material:1.10.0-alpha04'
+    implementation 'com.google.android.material:material:1.12.0-alpha03'
     implementation 'androidx.cardview:cardview:1.0.0'
-    implementation 'androidx.recyclerview:recyclerview:1.3.0'
+    implementation 'androidx.recyclerview:recyclerview:1.3.2'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation 'androidx.multidex:multidex:2.0.1'
     implementation 'com.jakewharton:butterknife:10.2.3'
-    androidTestImplementation 'junit:junit:4.12'
-    androidTestImplementation 'junit:junit:4.12'
+    androidTestImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'org.testng:testng:6.9.6'
     annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.3'
     implementation "com.airbnb.android:lottie:4.1.0"
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
     implementation 'com.onesignal:OneSignal:3.15.4'
-    implementation 'com.google.android.gms:play-services-location:21.0.1'
+    implementation 'com.google.android.gms:play-services-location:21.1.0'
 
     //billing library
-    implementation 'com.github.akshaaatt:Google-IAP:1.2.2'
+//    implementation 'com.github.akshaaatt:Google-IAP:1.2.2'
+//    implementation 'com.github.akshaaatt:Google-IAP:1.6.0'
+
+    implementation 'com.android.billingclient:billing:6.1.0'
+
 //    Line chart
     implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
     //bidding
-    implementation 'com.google.ads.mediation:facebook:6.12.0.0'
-    implementation 'com.google.android.gms:play-services-ads:21.3.0'
+    implementation 'com.google.ads.mediation:facebook:6.16.0.0'
+    implementation 'com.google.android.gms:play-services-ads:22.6.0'
 //    Lottie Animation
     def lottieVersion = "3.4.0"
     implementation "com.airbnb.android:lottie:$lottieVersion"
